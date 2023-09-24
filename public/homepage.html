@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiTap 2.0</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@200,400,700,500,600,1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/made-outer-sans-alt" rel="stylesheet">
+</head>
+<body class="font-clash flex justify-center">
+
+    <!-- Container to place the entire page at the centre -->
+    <div class="container w-4/5 py-16">
+
+        <!-- Header section -->
+        <div class="header grid grid-cols-5 lg:grid-cols-10">
+            <div class="hidden md:col-span-1 md:h-full md:flex md:items-center">
+                <img src="./images/fan-left.png" alt="fan" class="">
+            </div>
+            <h1 class="col-span-4 text-digitap-100 text-2xl font-semibold md:col-span-3 md:text-center md:text-4xl lg:col-span-8 lg:text-5xl">DIGITAP <br class="md:hidden"> GRADUATES '23</h1>
+            <div class="col-span-1 h-full flex items-center justify-end">
+                <img src="./images/fan-right.png" alt="fan" class="">
+            </div>
+        </div>
+
+        <!-- Robot background section which will be hidden for mobile view, but will display for tablet and above -->
+        <div class="hidden-robot md:grid md:grid-cols-2">
+            <div class="robot pt-8 hidden md:flex">
+                <img src="./images/robot.png" alt="robot">
+            </div>
+
+            <!-- Introduction to BLU section -->
+            <div class="intro grid grid-cols-4 pt-12 md:flex md:flex-col md:justify-center">
+                <div class="col-span-2 md:text-center">
+                    <span class="font-medium text-sm text-digitap-100 md:text-xl">Introducing you to</span>
+                    <div class="md:inline-block">
+                        <h2 class="text-digitap-100 font-light text-7xl">BLU!</h2>
+                        <img src="./images/underline.png" alt="underline">
+                    </div>
+                </div>
+                <div class="col-span-2 flex items-end justify-end md:text-justify">
+                    <p class="font-made font-extralight text-xs text-digitap-100 leading-4 text-end md:text-center">Your new A.I powered assistant here to make your every banking need happen at break-neck speeds.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Robot background section which will display for mobile view, but will be hidden for tablet and above -->
+        <div class="robot pt-8 md:hidden">
+            <img src="./images/robot.png" alt="robot">
+        </div>
+
+        <!-- About section -->
+        <div class="about pt-12 md:text-center md:pt-16">
+            <h2 class="text-base font-medium text-digitap-100 tracking-widest md:text-2xl">
+                How does
+                <span>
+                    <div class="inline-block text-center">
+                        <p>BLU</p>
+                        <img src="./images/underline2.png" alt="">
+                    </div>
+                </span>
+                work?
+            </h2>
+            <p class="text-digitap-100 font-extralight text-xs font-made md:text-lg">With the advancement of modern day technology to include A.I in banking, BLU leverages on techno.. <span class="font-light"> why don't we just show you </span> </p>
+        </div>
+
+        <!-- Video section -->
+        <div class="video pt-8">
+            <video src="./videos/paradise.mp4" controls></video>
+        </div>
+
+        <!-- Footer button section -->
+        <div class="footer pt-12 flex justify-center">
+            <button class="bg-digitap-100 rounded-lg px-4 py-2 text-white font-medium text-base md:text-2xl lg:text-3xl">Meet The Spectacular Team Behind It All</button>
+        </div>
+    </div>
+</body>
+</html>
